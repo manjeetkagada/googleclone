@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Lab1</title>
+
+    <style>
+        .navbar ul{
+            display: flex;
+            justify-content: flex-end;
+            margin: 30px;
+        
+        }
+        #nav-image{
+            width: 50px;
+            height: 30px;
+            margin-left: 10px;
+            border: 1px solid black;
+            border-radius:5px;
+            
+        }
+        .navbar ul li{
+            list-style: none;
+            font-size: 22px;
+            margin:0 20px;
+
+
+        }
+        .navbar ul li a{
+          text-decoration: none;
+
+
+        }
+        
+       
+        
+        #main-image{
+            width:30%;
+            height: 25vh;
+            object-fit: contain;
+
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top:58px;
+            
+        }
+        #search{
+          
+            width: 100%;
+            height: 45px;
+            border: 1px solid black;
+            border-radius: 77px;
+           
+          
+
+        }
+        
+       .button{
+        margin-top: 20px;
+       
+
+       }
+       .btn{
+        padding: 10px;
+        height:38px;
+        margin: 5px;
+        opacity: 1;
+       
+       
+       }
+       
+       .search-logo-div{
+        display: flex;
+        width:40%;
+        height: 45px;
+        
+       
+       
+
+       
+
+       }
+       #search-logo{
+        width: 34px;
+        height: 34px;
+        position:absolute;
+        padding: 9px;
+       }
+
+       .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: rgb(245, 242, 242);
+        
+       }
+       .links1 {
+       margin: 20px;
+       list-style: none;
+      
+       
+        font-size: 20px;
+       
+       
+       }
+       
+       .links2 ul{
+        display: flex;
+        border-top: 1px solid black;
+      
+        
+       }
+       .links2 ul li{
+        list-style: none;
+        margin:10px;
+        font-size: 20px;
+       }
+       .links2 ul li a{
+       text-decoration: none;
+       }
+       .language{
+        margin-top: 22px;
+       }
+       .language a{
+        margin: 5px;
+        text-decoration: none;
+       
+       }
+       .links1 a{
+        text-decoration: none;
+       
+       }
+       
+       
+      
+
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <img src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg" id="nav-image">
+            </ul>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="main">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Google_Logo.svg/2560px-Google_Logo.svg.png" id="main-image">
+           
+            <div class="search-logo-div">
+                <input type="search" id="search">
+                <img src="https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png" id="search-logo">
+
+            </div>
+
+            <div class="button">
+                <input type="button" value="Google Search" class="btn">
+                <input type="button" value="I'm Feeling Lucky" class="btn">
+            </div>
+            <div class="language">
+                Google offered in:
+                <a href="">हिन्दी</a>
+                <a href="">മലയാളം</a>
+                <a href="">ਪੰਜਾਬੀ</a>
+                <a href="">ગુજરાતી</a>
+                <a href="">ಕನ್ನಡ</a>
+                <a href="">मराठी</a>
+                <a href="">தமிழ்</a>
+                <a href=""> বাংলা</a>
+                <a href=""> తెలుగు </a>
+                
+                  
+            </div>
+
+           
+          
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="links1">
+                <li><a href="">India</a></li>
+            </div>
+            <div class="links2">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search Works</a></li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+  
+   
+   </div>
+</body>
+</html>
